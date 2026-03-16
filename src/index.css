@@ -1,4 +1,6 @@
 @import "tailwindcss";
+
+
 body {
   background: #0B0B1E;
   color: white;
@@ -8,6 +10,7 @@ body{
   font-family: 'Space Grotesk', sans-serif;
   background:#0B0B1E;
 }
+
 .font-mono {
   font-family: "JetBrains Mono", monospace;
 }
@@ -31,7 +34,11 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
-
-/* navabr */
+/* .section-title {
+  @apply text-3xl md:text-4xl font-semibold uppercase tracking-[0.08em];
+  font-family: var(--font-heading);
+}
+.section-label {
+  @apply text-xs font-medium uppercase tracking-[0.25em] text-accent;
+  font-family: var(--font-mono);
+} */
