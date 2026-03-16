@@ -8,7 +8,7 @@ const FooterSection = () => {
   };
 
   return (
-    <footer className="border-t border-primary/10 pt-16 pb-8 bg-gray-950 text-white">
+    <footer className="border-t border-primary/10 pt-16 pb-8 bg-[transparent-65%] text-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {/* About */}
@@ -65,6 +65,7 @@ const FooterSection = () => {
         </div>
       </div>
     </footer>
+
   );
 };
 
