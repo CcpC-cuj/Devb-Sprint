@@ -4,6 +4,8 @@ import StarFeild from "../components/StarField";
 import TimelineSection from "../components/TimelineSection";
 import RulesSection from "../components/RulesSection";
 import LeaderboardSection from "../components/LeaderboardSection";
+
+import JudgesSection from "../components/JudgesSection";
 import ContactSection from  "../components/ContactSection";
 
 
@@ -18,6 +20,8 @@ export default function Home() {
       <TimelineSection/>
       <RulesSection/>
       <LeaderboardSection/>
+      
+      <JudgesSection/>
       <ContactSection/>
 
     </>
