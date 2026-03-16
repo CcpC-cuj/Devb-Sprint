@@ -7,6 +7,7 @@ import DomainsSection from "../components/DomainsSection";
 import RulesSection from "../components/RulesSection";
 import LeaderboardSection from "../components/LeaderboardSection";
 import JudgesSection from "../components/JudgesSection";
+//import GallerySection from "../components/GallerySection";
 import ContactSection from  "../components/ContactSection";
 import FooterSection from "../components/Footer";
 
@@ -25,6 +26,7 @@ export default function Home() {
       <LeaderboardSection/>
       
       <JudgesSection/>
+      
       <ContactSection/>
 
       <FooterSection />
