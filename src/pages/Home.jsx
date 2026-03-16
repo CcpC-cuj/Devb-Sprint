@@ -1,10 +1,10 @@
 import HeroSection from "../components/Hero";
 import Navbar from "../components/Navbar";
 import StarFeild from "../components/StarField";
+import AboutSection from "../components/AboutSection";
 import TimelineSection from "../components/TimelineSection";
 import RulesSection from "../components/RulesSection";
 import LeaderboardSection from "../components/LeaderboardSection";
-
 import JudgesSection from "../components/JudgesSection";
 import ContactSection from  "../components/ContactSection";
 
@@ -17,6 +17,7 @@ export default function Home() {
       
       <Navbar />
       <HeroSection />
+      <AboutSection/>
       <TimelineSection/>
       <RulesSection/>
       <LeaderboardSection/>
