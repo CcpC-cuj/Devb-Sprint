@@ -53,7 +53,7 @@ const FooterSection = () => {
                   href="#"
                   className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center text-muted-foreground hover:text-accent hover:bg-primary/20 transition-all duration-200"
                 >
-                  <Icon size={16} />
+                  <Icon size={18} />
                 </a>
               ))}
             </div>
