@@ -39,8 +39,8 @@ const TimelineSection = () => (
 
             {/* Card */}
             <div className="timeline-card">
-              <h3 className="timeline-title">{event.title}</h3>
-              <p className="timeline-date">{event.date}</p>
+              <h3 className="secrion-title">{event.title}</h3>
+              <p className=" section-label">{event.date}</p>
             </div>
           </motion.div>
         ))}

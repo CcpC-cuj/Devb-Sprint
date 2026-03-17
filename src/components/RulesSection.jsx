@@ -2,15 +2,16 @@ import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 
 const rules = [
-  "Teams may contain 1–4 participants",
-  "All coding must happen during the hackathon",
-  "Projects must be web-based applications",
-  "Teams must submit: GitHub repository, Live demo link, Project description",
-  "Use of open-source libraries is allowed",
-  "Plagiarism or copied projects will result in disqualification",
-  "Judges' decisions are final",
+  "Team size: 2–4 members (min 1 from 1st year; leader from 2nd–4th year).",
+  "Build a web-based project during the hackathon only.",
+  "Submission must include: GitHub repo, deployed live link, and contribution report (Drive link).",
+  "Deployment is mandatory; submissions cannot be modified after submission.",
+  "Minimum 6 meaningful commits required; individual contributions must be clear.",
+  "Final round: 3-min demo + 2-min Q&A.",
+  "Only participants present at inauguration are eligible.",
+  "Open-source libraries allowed; plagiarism leads to disqualification.",
+  "Judges’ decisions are final."
 ];
-
 const criteria = [
   { label: "Innovation & Creativity", value: 30 },
   { label: "Technical Implementation", value: 30 },
@@ -20,7 +21,7 @@ const criteria = [
 
 const RulesSection = () => (
   <section id="rules" className="relative py-24 md:py-32">
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-2">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

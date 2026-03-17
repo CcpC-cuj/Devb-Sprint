@@ -313,7 +313,7 @@ html {
 }
 
 /* Text */
-.timeline-title {
+/* .timeline-title {
   font-family: var(--font-heading);
   font-weight: 600;
   font-size: 0.9rem;
@@ -324,7 +324,7 @@ html {
   font-family: var(--font-mono);
   font-size: 0.75rem;
   color: hsl(var(--accent));
-}
+} */
 /* Section */
 .timeline-section {
   padding: 100px 20px;
@@ -341,16 +341,7 @@ html {
   margin-bottom: 60px;
 }
 
-.section-label {
-  color: #a855f7;
-  font-size: 14px;
-  letter-spacing: 2px;
-}
 
-.section-title {
-  font-size: 32px;
-  font-weight: bold;
-}
 
 /* Timeline */
 .timeline {
