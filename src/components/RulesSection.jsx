@@ -58,13 +58,17 @@ const RulesSection = () => (
           className="card-surface p-6"
         >
           <h3 className="font-heading font-semibold text-lg mb-4">Evaluation Matrix</h3>
+
           <div className="space-y-5">
+
             {criteria.map((c) => (
               <div key={c.label}>
+
                 <div className="flex justify-between text-sm mb-1">
                   <span className="text-muted-foreground">{c.label}</span>
-                  <span className="text-accent font-mono">{c.value}%</span>
+                  <span className="text-accent font-mono text-cyan-400">{c.value}%</span>
                 </div>
+
                 <div className="w-full h-2 rounded-full bg-muted overflow-hidden">
                   <motion.div
                     className="h-full rounded-full bg-gradient-to-r from-primary to-accent"
@@ -74,6 +78,14 @@ const RulesSection = () => (
                     transition={{ duration: 1, ease: "easeOut" }}
                   />
                 </div>
+
+                <div className="w-full h-[10px] bg-white/10 rounded-[10px] overflow-hidden">
+                  <div
+                    className="h-full rounded-[10px] bg-gradient-to-r from-cyan-300 to-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.8)] transition-all duration-700 ease-out"
+                    style={{ width: `${c.value}%` }}
+                  ></div>
+                </div>
+
               </div>
             ))}
           </div>
