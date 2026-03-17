@@ -5,7 +5,7 @@ const judges = [
   {
     icon: Users,
     title: "Student Body",
-    desc: "Participants collectively evaluate and vote on innovative solutions.",
+    desc: "SEB collectively evaluate and vote on innovative solutions.",
   },
   {
     icon: Crown,

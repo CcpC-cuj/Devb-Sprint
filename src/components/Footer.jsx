@@ -50,7 +50,7 @@ const FooterSection = () => {
           <div>
             <h4 className="footer-title">Social</h4>
             <div className="footer-social">
-              {[Github, Linkedin, Twitter, Instagram].map((Icon, i) => (
+              {[ Linkedin,  Instagram].map((Icon, i) => (
                 <a key={i} href="#" className="social-icon">
                   <Icon size={16} />
                 </a>
