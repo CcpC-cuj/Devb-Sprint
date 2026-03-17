@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Globe } from "lucide-react";
+import { Mail, Globe, Phone  } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -41,9 +41,29 @@ const ContactSection = () => {
                   Email
                 </div>
 
-                <div className="text-sm font-mono tracking-wide">
-                  devsprint@hackathon.com
+                <a
+                  href="mailto:dev.ccpc@gmail.com"
+                  className="text-sm font-mono tracking-wide hover:text-indigo-400 transition"
+                >
+                  dev.ccpc@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <Phone size={18} className="text-accent" />
+
+              <div>
+                <div className="text-xs uppercase tracking-widest text-muted-foreground mb-1 font-mono">
+                  Phone
                 </div>
+
+                <a
+                  href="tel:+6200468743"
+                  className="text-sm font-mono tracking-wide hover:text-indigo-400 transition"
+                >
+                  +91 6200468743
+                </a>
               </div>
             </div>
 

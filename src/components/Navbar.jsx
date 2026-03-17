@@ -8,7 +8,7 @@ const navItems = [
   "Domains",
   "Rules",
   // "Leaderboard",
-  "Gallery",
+  // "Gallery",
   "Contact",
 ];
 
@@ -33,7 +33,11 @@ const Navbar = () => {
           onClick={() => scrollTo("home")}
           className="text-xl font-bold tracking-wide text-white cursor-pointer"
         >
-          Dev<span className="text-[#6C3BFF]">Sprint</span>
+           <img 
+              src="/logo.png"
+              alt="DevSprint Logo"
+              className="w-20 h-20 object-contain"
+            />
         </button>
 
         {/* Desktop Menu */}

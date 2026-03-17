@@ -1,6 +1,6 @@
 import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
 
-const quickLinks = ["Home", "About", "Timeline", "Rules", "Leaderboard", "Gallery"];
+const quickLinks = ["Home", "About", "Timeline", "Rules",];
 
 const FooterSection = () => {
   const scrollTo = (id) => {
@@ -8,23 +8,22 @@ const FooterSection = () => {
   };
 
   return (
-    <footer className="footer">
-      <div className=" mx-auto px-4">
-
-        {/* Grid */}
-        <div className="footer-grid">
-
+    <footer className="pt-16 pb-8 bg-[transparent-65%] text-white flex flex-col items-center">
+      <div className="max-w-7xl px-8 md:px-20 font-Rockwell ">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-12 mb-12">
           {/* About */}
-          <div className="footer-about">
-            <h3 className="footer-logo">
-              Dev<span>Sprint</span>
-            </h3>
-            <p className="footer-desc">
+          <div className="col-span-2 md:col-span-1 mb-6 md:mb-0">
+            <img 
+              src="/logo.png"
+              alt="DevSprint Logo"
+              className="w-20 h-20 object-contain"
+            />
+            <p className="text-muted-foreground text-xs leading-relaxed tracking-widest">
               A 24-hour online web development hackathon challenging developers to code beyond the horizon.
             </p>
           </div>
 
-          {/* Links */}
+          {/* Quick Links */}
           <div>
             <h4 className="footer-title">Quick Links</h4>
             <ul className="footer-list">
@@ -42,9 +41,8 @@ const FooterSection = () => {
           <div>
             <h4 className="footer-title">Contact</h4>
             <ul className="footer-list">
-              <li>devsprint@hackathon.com</li>
-              <li>devsprint.dev</li>
-              <li>Online Event</li>
+              <li>dev.ccpc@gmail.com</li>
+              <li>+91 6200468743</li>
             </ul>
           </div>
 
@@ -59,16 +57,15 @@ const FooterSection = () => {
               ))}
             </div>
           </div>
-
         </div>
 
         {/* Bottom */}
         <div className="footer-bottom">
           © 2026 Dev Sprint Hackathon. All Rights Reserved.
         </div>
-
       </div>
     </footer>
+
   );
 };
 
